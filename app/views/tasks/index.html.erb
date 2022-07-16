@@ -4,3 +4,8 @@
     <li><%= link_to "#{task[:title]}", task_path(task[:id]) %></li>
   </ul>
 <% end %>
+
+
+<div class="create">
+  <%= link_to "Create task", new_path %>
+</div>
